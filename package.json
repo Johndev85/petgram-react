@@ -1,0 +1,50 @@
+{
+    "name": "curso-platzi-react-avanzado",
+    "version": "1.0.0",
+    "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "lint-fix": "semistandard --fix",
+        "dev": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Johndev85/curso-platzi-react-avanzado.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Johndev85/curso-platzi-react-avanzado/issues"
+    },
+    "homepage": "https://github.com/Johndev85/curso-platzi-react-avanzado#readme",
+    "devDependencies": {
+        "@babel/core": "7.11.1",
+        "@babel/preset-env": "7.11.0",
+        "@babel/preset-react": "7.10.4",
+        "babel-loader": "8.1.0",
+        "eslint-config-prettier": "6.11.0",
+        "eslint-plugin-prettier": "3.1.4",
+        "html-webpack-plugin": "4.3.0",
+        "prettier": "2.0.5",
+        "semistandard": "14.2.3",
+        "webpack": "4.44.1",
+        "webpack-cli": "3.3.12",
+        "webpack-dev-server": "3.11.0"
+    },
+    "dependencies": {
+        "react": "16.13.1",
+        "react-dom": "16.13.1"
+    },
+    "semistandard": {
+        "ignore": [
+            "/api/**"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./node_modules/semistandard/eslintrc.json"
+        ]
+    }
+}

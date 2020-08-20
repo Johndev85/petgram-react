@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>The dark side of the code</title>
+        <style>
+            :root {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                width: 375px;
+                height: 800px;
+                color: white;
+                margin: 0 auto;
+                box-shadow: 0 0 9px 2px black;
+            }
+
+            header {
+                background-color: #00b8a6;
+                border-radius: 20px;
+            }
+
+            .top {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+                margin: 0 20px;
+            }
+
+            .top img {
+                width: 30px;
+            }
+
+            .userStats {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 10px;
+                font-size: 17px;
+            }
+
+            .userStats .user-icon {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .userStats .user-icon img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                border: 5px solid white;
+                object-fit: cover;
+                margin-right: 15px;
+            }
+
+            .rp {
+                font-weight: bold;
+            }
+
+            .user-text {
+                display: flex;
+                flex-direction: column;
+                font-size: 16px;
+                margin: 10px;
+            }
+
+            .user-text small {
+                text-align: center;
+                width: 40px;
+                padding: 3px;
+                font-weight: bold;
+                border-radius: 15px;
+                background-color: #579fa1;
+            }
+
+            .user-data {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 15px;
+            }
+
+            .data {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .data span {
+                font-size: 17px;
+                font-weight: bold;
+            }
+
+            .products {
+                padding: 20px;
+            }
+
+            .item {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-evenly;
+                background-color: #00b8a6;
+                border-radius: 20px;
+            }
+
+            .item-image {
+                width: 200px;
+            }
+
+            .prices {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="top">
+                <img
+                    src="https://img.icons8.com/ios-filled/48/000000/menu.png"
+                />
+                <img
+                    src="https://img.icons8.com/material-rounded/24/000000/shopping-cart-promotion.png"
+                />
+            </div>
+            <div class="userStats">
+                <div class="user-icon">
+                    <img
+                        src="https://images.pexels.com/photos/2998816/pexels-photo-2998816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="woman"
+                    />
+                    <div class="user-text">
+                        <span>Dinahari</span>
+                        <small>VIP</small>
+                    </div>
+                </div>
+                <span class="rp">
+                    576.500
+                </span>
+            </div>
+            <div class="user-data">
+                <div class="data">
+                    <span>
+                        139
+                    </span>
+                    <small>Buy</small>
+                </div>
+                <div class="data">
+                    <span>
+                        5
+                    </span>
+                    <small>Voucher</small>
+                </div>
+                <div class="data">
+                    <span>
+                        24
+                    </span>
+                    <small>Alms</small>
+                </div>
+            </div>
+        </header>
+        <section class="search">
+            <input type="text" />
+        </section>
+        <section class="products">
+            <div class="item">
+                <h1>Chicken Burger</h1>
+                <img
+                    class="item-image"
+                    src="https://lh3.googleusercontent.com/proxy/atBsyMlFauXMM8NPqtWM_fzUJFH2Q43p8LhxeN-O7ZN5icOyRiL9rjRWGsb0cIhW_Oc079mDl-fcmFGmqPYD1a0KNfkXW7z4e6jCqntDbkFW2fVbaQUCY_aLYadxNiwN_ex3AYE"
+                    alt=""
+                />
+                <div class="prices">
+                    <span>
+                        65.000
+                    </span>
+                    <div class="icon">
+                        <img
+                            src="https://img.icons8.com/pastel-glyph/64/000000/plus.png"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
